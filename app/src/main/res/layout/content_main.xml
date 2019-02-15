@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,3 +19,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
+-->
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          app:layout_behavior="@string/appbar_scrolling_view_behavior"
+          android:id="@+id/quizFragment"
+          android:name="com.example.myflagquiz.MainActivityFragment"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          tools:layout="@layout/fragment_main"/>
