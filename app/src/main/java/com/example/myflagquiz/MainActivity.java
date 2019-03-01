@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             regions.add(getString(R.string.default_region));
-                            editor.putStringSet((REGIONS, regions));
+                            editor.putStringSet(REGIONS, regions);
                             editor.apply();
 
                             Toast.makeText(MainActivity.this, R.string.default_region_message, Toast.LENGTH_SHORT).show();
